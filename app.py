@@ -43,7 +43,7 @@ gender_class = st.selectbox('Select the GenderClass of the Passenger', ['Male', 
 
 # Create a DataFrame
 data = {
-    'Pclass': pclass,
+    'Pclass': Pclass,
     'Age': age,
     'Fare': fare,
     'Family_Size': family_size,
